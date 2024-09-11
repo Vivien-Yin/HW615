@@ -62,7 +62,7 @@ print(squirrelPlot)
 
 ### Exercise 4
 
-BigMac<- read.csv("big_mac .csv")
+BigMac<- read.csv("big_mac.csv")
 # delete some elements cannot turn into numeric
 BigMac <- BigMac[!is.na(as.numeric(BigMac$GDP.Per.Capita)), ]
 BigMac$GDP.Per.Capita <- as.numeric(BigMac$GDP.Per.Capita)#x is character instead of numeric
