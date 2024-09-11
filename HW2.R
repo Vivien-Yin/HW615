@@ -15,16 +15,14 @@ library(stringr)# This loads the packages necessary to run your plots. Do not de
 ### Exercise 1
 
 sp <- read.csv("SPX-1Month.csv")
-spx_plot1<- ggplot(sp, aes(x = Date, y = Close.Last, group = 1)) +
-  geom_line() + 
-  geom_point() 
+spx_plot1<- ggplot(sp, aes(x = Date, y = Close.Last, group = 1))+
+  geom_point() +
+  geom_line() 
 print(spx_plot1)
 
-spx_plot2<-ggplot(sp, aes(x = Date, y = Close.Last, group = 1)) +
-  geom_line() + 
-  geom_point() +
+spx_plot2<-spx_plot1+
   labs(
-    title = "S&P500-Closing Price over the Last Month",
+    title = "S&P500 - Closing Price over the Last Month",
     x = "Date",
     y = "Price"
   )+
@@ -35,11 +33,11 @@ print(spx_plot2)
 
 book<- read.csv("BookGenres.csv")
 bookplot<-ggplot(book,aes(x = Category, y = Price, color = Season))+
-  geom_point(alpha = 0.40) +
+  geom_point(alpha = 0.4) +
   labs(
     title = "The Price of Fiction Books by Genre and Season",
     x = "Genre",
-    y = "Price($)"
+    y = "Price ($)"
   )+
   theme_minimal()+
   theme(axis.text.x=element_text(angle=30,hjust=1))
@@ -50,14 +48,15 @@ print(bookplot)
 squirrel<- read.csv("squirrel.csv") |>
   group_by(Activities, Interactions.with.Humans) |>
   summarise(Count = n()) 
-squirrelPlot<-ggplot(squirrel,aes(x = Activities, y = Count, fill = Interactions.with.Humans))+
+squirrelPlot<-ggplot(squirrel,aes(x = Activities, y = Count, fill = Interactions.with.Humans)) +
+  theme_grey() +
   geom_bar(stat = "identity", position = "dodge") + 
   labs(
     title = "Squirrel Behavior in NYC Parks",
     x = "Squirrel's Activity during Observation",
-    y = "Count"
-  )+
-  theme_grey()
+    y = "Count",
+    fill = "Interactions with Humans"
+  )
 print(squirrelPlot) 
 
 ### Exercise 4
@@ -68,7 +67,7 @@ BigMac <- BigMac[!is.na(as.numeric(BigMac$GDP.Per.Capita)), ]
 BigMac$GDP.Per.Capita <- as.numeric(BigMac$GDP.Per.Capita)#x is character instead of numeric
 bigMac<-ggplot(BigMac,aes(x = GDP.Per.Capita, y = dollar_price))+
   geom_point() +
-  geom_smooth(method = "loess", color = "blue") + 
+  geom_smooth(method = "loess", color = "blue")+ 
   labs(
     title = "Countries' GDP Per Capita compared to their Big Mac Index",
     x = "GDP per Capita in Dollars",
@@ -77,17 +76,15 @@ bigMac<-ggplot(BigMac,aes(x = GDP.Per.Capita, y = dollar_price))+
   theme_grey()
 print(bigMac) 
 # log cannot deal with 0 or nagative number,so check:
-str(BigMac)
-summary(BigMac$GDP.Per.Capita)
 BigMac$log_GDP.Per.Capita <- log(BigMac$GDP.Per.Capita)
 logBigMac<- ggplot(BigMac, aes(x = log_GDP.Per.Capita, y = dollar_price)) +
-  geom_point() + 
-  geom_smooth(method = "loess", color = "blue") + 
+  geom_point()+ 
+  geom_smooth()+
   labs(
     title = "Countries' GDP Per Capita compared to their Big Mac Index",
-    x = "Log of Dollar GDP per Capita",
+    x = "Log of Dollar GDP Per Capita",
     y = "Dollar Price of a Big Mac"
-  ) +
+  )+
   theme_grey()
 print(logBigMac) 
 
