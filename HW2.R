@@ -14,7 +14,7 @@ library(stringr)# This loads the packages necessary to run your plots. Do not de
 
 ### Exercise 1
 
-sp <- read.csv("HW2——data/SPX-1Month.csv")
+sp <- read.csv("SPX-1Month.csv")
 spx_plot1<- ggplot(sp, aes(x = Date, y = Close.Last, group = 1)) +
   geom_line() + 
   geom_point() 
@@ -33,7 +33,7 @@ print(spx_plot2)
 
 ### Exercise 2
 
-book<- read.csv("HW2——data/BookGenres.csv")
+book<- read.csv("BookGenres.csv")
 bookplot<-ggplot(book,aes(x = Category, y = Price, color = Season))+
   geom_point(alpha = 0.40) +
   labs(
@@ -47,7 +47,7 @@ print(bookplot)
 
 ### Exercise 3
 
-squirrel<- read.csv("HW2——data/squirrel.csv") |>
+squirrel<- read.csv("squirrel.csv") |>
   group_by(Activities, Interactions.with.Humans) |>
   summarise(Count = n()) 
 squirrelPlot<-ggplot(squirrel,aes(x = Activities, y = Count, fill = Interactions.with.Humans))+
@@ -62,7 +62,7 @@ print(squirrelPlot)
 
 ### Exercise 4
 
-BigMac<- read.csv("HW2——data/big_mac .csv")
+BigMac<- read.csv("big_mac .csv")
 # delete some elements cannot turn into numeric
 BigMac <- BigMac[!is.na(as.numeric(BigMac$GDP.Per.Capita)), ]
 BigMac$GDP.Per.Capita <- as.numeric(BigMac$GDP.Per.Capita)#x is character instead of numeric
