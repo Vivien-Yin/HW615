@@ -1,0 +1,384 @@
+,Area.Name,Area.ID,Park.Name,Park.ID,Squirrel.ID,Primary.Fur.Color,Highlights.in.Fur.Color,Color.Notes,Location,Above.Ground..Height.in.Feet.,Specific.Location,Activities,Interactions.with.Humans,Other.Notes.or.Observations,Squirrel.Latitude..DD.DDDDDD.,Squirrel.Longitude...DD.DDDDDD.
+1,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-01,Gray,White,,Ground Plane,,,Foraging,Approaches,,40.85941,-73.933936
+2,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-02,Gray,White,,Ground Plane,,,Foraging,Indifferent,Looks skinny,40.859436,-73.933937
+3,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-03,Gray,White,,Ground Plane,,,Foraging,Indifferent,,40.859416,-73.933894
+4,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-04,Gray,White,,Ground Plane,,,Running,Indifferent,,40.859418,-73.933895
+5,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-05,Gray,Cinnamon,,Ground Plane,,,Running,Indifferent,She left food,40.859493,-73.93359
+6,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-06,Gray,Cinnamon,,Ground Plane,,,Climbing,Watching/Cautious,,40.860825,-73.932871
+7,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-07,Gray,White,,Ground Plane,,,Foraging,Indifferent,,40.860225,-73.933143
+8,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-08,Black,Gray,,Above Ground,10,,Climbing,Runs from,,40.859965,-73.933412
+9,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-09,Gray,White,,Ground Plane,,,Foraging,Indifferent,,40.859892,-73.933326
+10,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-10,Gray,White,,Ground Plane,,,Foraging,Indifferent,,40.859636,-73.933717
+11,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-11,Gray,Black,,Ground Plane,,,Foraging,Indifferent,was intimidated by a dog,40.859576,-73.933738
+12,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-12,Gray,White,,Ground Plane,,,Running,Runs from,,40.859989,-73.934544
+13,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-01,Black,Gray,,Ground Plane,,,Running,Indifferent,,40.845749,-73.9407
+14,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-02,Black,Cinnamon,,Above Ground,2,,Foraging,Indifferent,,40.845875,-73.940808
+15,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-03,Black,Cinnamon,,Ground Plane,,,Foraging,Watching/Cautious,,40.845875,-73.940808
+16,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-04,Black,Cinnamon,,Ground Plane,,,Running,Indifferent,,40.846088,-73.940613
+17,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-05,Black,Cinnamon,,Ground Plane,,,Running,Runs from,,40.846088,-73.940613
+18,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-06,Black,Cinnamon,,Ground Plane,,,Foraging,Indifferent,,40.846088,-73.940613
+19,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-07,Black,Gray,,Ground Plane,,,Sleeping,Runs from,,40.846222,-73.94094
+20,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-08,Black,Cinnamon,,Ground Plane,,,Foraging,Approaches,,40.846222,-73.94094
+21,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-10,Black,Cinnamon,,Ground Plane,,,Running,Watching/Cautious,,40.846185,-73.940613
+22,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-11,Black,Cinnamon,,Ground Plane,,,Eating,Runs from,,40.846271,-73.940579
+23,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-12,Gray,Cinnamon,,"Above Ground, Specific Location",15,tree,Climbing,Indifferent,,40.846332,-73.940369
+24,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-13,Gray,White,,"Above Ground, Specific Location",20,tree,Sleeping,Indifferent,,40.846332,-73.940369
+25,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-14,Gray,Gray,,Ground Plane,,,Running,Indifferent,,40.846332,-73.940369
+26,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-15,Gray,White,,Ground Plane,,,Running,Watching/Cautious,,40.846458,-73.94103
+27,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-16,Gray,Cinnamon,,"Above Ground, Specific Location",20,tree,Eating,Watching/Cautious,,40.846417,-73.941115
+28,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-17,Gray,Gray,,Ground Plane,,,Running,Watching/Cautious,,40.846296,-73.941132
+29,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-18,Gray,Cinnamon,,Ground Plane,,,Foraging,Indifferent,,40.846064,-73.941497
+30,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-19,Gray,Cinnamon,,"Above Ground, Specific Location",2,tree,Climbing,Indifferent,,40.846065,-73.941498
+31,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-20,Gray,Cinnamon,,Ground Plane,,,Foraging,Approaches,,40.847296,-73.942061
+32,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-21,Gray,Cinnamon,,Ground Plane,,,Foraging,Runs from,,40.847259,-73.941598
+33,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-22,Gray,Cinnamon,,Ground Plane,,,Foraging,Indifferent,,40.84719,-73.941308
+34,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-23,Gray,Cinnamon,,"Above Ground, Specific Location",2,fence,Eating,Indifferent,,40.84719,-73.941308
+35,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-24,Cinnamon,White,,"Above Ground, Specific Location",20,tree,Sitting,Indifferent,,40.847113,-73.940937
+36,UPPER MANHATTAN,A,Highbridge Park,3,A-03-01,Cinnamon,Gray,,"Above Ground, Specific Location",2,in tree,Climbing,Watching/Cautious,#1 and #2 chasing each other,40.841178,-73.935482
+37,UPPER MANHATTAN,A,Highbridge Park,3,A-03-02,Cinnamon,White,,"Above Ground, Specific Location",2,in tree,Climbing,Runs from,#1 and #2 chasing each other,40.841204,-73.935434
+38,UPPER MANHATTAN,A,Highbridge Park,3,A-03-03,Cinnamon,White,,"Above Ground, Specific Location",2,in tree,Running,Watching/Cautious,,40.841212,-73.934827
+39,UPPER MANHATTAN,A,Highbridge Park,3,A-03-04,Cinnamon,White,,Above Ground,3,,Climbing,Watching/Cautious,,40.841217,-73.934714
+40,UPPER MANHATTAN,A,Highbridge Park,3,A-03-05,Cinnamon,Gray,,Ground Plane,,,Running,Runs from,"#5, #6 & #7 together in shrub area to East, a lot of acorns and Corona bottle caps on ground",40.841359,-73.934339
+41,UPPER MANHATTAN,A,Highbridge Park,3,A-03-06,Cinnamon,Gray,,"Above Ground, Specific Location",2,in tree,Running,Watching/Cautious,"#5, #6 & #7 together in shrub area to East, a lot of acorns and Corona bottle caps on ground",40.841375,-73.934242
+42,UPPER MANHATTAN,A,Highbridge Park,3,A-03-07,Cinnamon,White,,"Above Ground, Specific Location",< 1,on log,Running,Runs from,"#5, #6 & #7 together in shrub area to East, a lot of acorns and Corona bottle caps on ground",40.841375,-73.934242
+43,UPPER MANHATTAN,A,Highbridge Park,3,A-03-08,Cinnamon,Gray,,"Above Ground, Specific Location",3,in wall,Climbing,Runs from,"#8 & #9 saw together at start of river overlook, hiding in cracks of cement wall! so cool!",40.842308,-73.933061
+44,UPPER MANHATTAN,A,Highbridge Park,3,A-03-09,Cinnamon,Gray,,"Above Ground, Specific Location",3,in wall,Sleeping,Watching/Cautious,"#8 & #9 saw together at start of river overlook, hiding in cracks of cement wall! so cool!",40.842401,-73.932986
+45,UPPER MANHATTAN,A,Highbridge Park,3,A-03-10,Cinnamon,White,,"Ground Plane, Above Ground",6‰ÛÒ18,"Started on ground, climbed 6‰ÛÒ18 ft.",Climbing,Watching/Cautious,"Lots of garbage, near #8 & #9",40.842511,-73.932916
+46,UPPER MANHATTAN,A,Highbridge Park,3,A-03-11,Cinnamon,White,,Above Ground,4,,Shouting,Watching/Cautious,,40.842673,-73.932793
+47,UPPER MANHATTAN,A,Highbridge Park,3,A-03-12,Cinnamon,White,,Ground Plane,,,Foraging,Runs from,,40.842795,-73.933002
+48,UPPER MANHATTAN,A,Highbridge Park,3,A-03-13,Cinnamon,White,,Ground Plane,,,Running,Watching/Cautious,,NA,NA
+49,UPPER MANHATTAN,A,Highbridge Park,3,A-03-14,Cinnamon,White,,Ground Plane,,,Running,Watching/Cautious,Loud sparrows in tree,40.842327,-73.934269
+50,UPPER MANHATTAN,A,Highbridge Park,3,A-03-16,Cinnamon,White,,Ground Plane,,,Foraging,Indifferent,,40.842769,-73.934478
+51,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-01,Gray,White,,Above Ground,,,Climbing,Indifferent,Jumping between,40.817593,-73.948855
+52,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-02,Black,Black,,Ground Plane,,,Foraging,Indifferent,Chasing #3,40.817719,-73.948855
+53,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-03,Gray,White,,Ground Plane,,,Eating,Indifferent,Being chased by #2,40.817719,-73.948914
+54,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-04,Gray,White,,Ground Plane,,,Foraging,Approaches,,40.817711,-73.949118
+55,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-05,Gray,White,,Ground Plane,,,Climbing,Indifferent,,40.817569,-73.948931
+56,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-06,Gray,Gray,,Above Ground,,,Climbing,Indifferent,,40.817544,-73.949016
+57,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-07,Gray,Gray,,Above Ground,,,Climbing,Indifferent,,40.817544,-73.949016
+58,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-08,Gray,White,,Ground Plane,,,Running,Runs from,,40.817479,-73.949006
+59,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-09,Gray,White,,Ground Plane,,,Foraging,Indifferent,Wooded area,40.816685,-73.949689
+60,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-10,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,Wooded area,40.816677,-73.949549
+61,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-11,Black,Black,,Ground Plane,,,Foraging,Indifferent,Wooded area,40.816555,-73.949609
+62,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-12,Gray,White,,Ground Plane,,,Foraging,Indifferent,Wooded area - would look but not fully approach,40.816506,-73.949587
+63,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-13,Gray,White,,Ground Plane,,,Running,Indifferent,,40.816425,-73.949474
+64,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-14,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,,40.818308,-73.948952
+65,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-15,Gray,Black,,Ground Plane,,,Foraging,Indifferent,,40.818263,-73.948909
+66,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-06,Cinnamon,White,,Above Ground,15,,Sitting,Indifferent,,NA,NA
+67,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-08,Cinnamon,Gray,,Ground Plane,,,Eating,Indifferent,,NA,NA
+68,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-09,Cinnamon,Gray,,Ground Plane,,,Eating,Indifferent,,NA,NA
+69,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-10,Cinnamon,White,,Ground Plane,,,Eating,Indifferent,,NA,NA
+70,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-11,Cinnamon,Gray,,Ground Plane,,,Eating,Indifferent,,NA,NA
+71,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-12,Cinnamon,Gray,,Ground Plane,,,Eating,Indifferent,,NA,NA
+72,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-13,Cinnamon,White,,Ground Plane,,,Eating,Indifferent,,NA,NA
+73,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-14,Cinnamon,,,Ground Plane,,,Eating,Indifferent,,NA,NA
+74,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-17,Cinnamon,,,Ground Plane,,,Eating,Indifferent,,NA,NA
+75,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-18,Cinnamon,,,Ground Plane,,,Running,Indifferent,,NA,NA
+76,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-19,Cinnamon,Gray,,"Above Ground, Specific Location",,Tree,Running,Indifferent,,NA,NA
+77,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-20,Cinnamon,Gray,,Ground Plane,,,Running,Indifferent,,NA,NA
+78,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-21,Cinnamon,Gray,,Ground Plane,,at tree,Sleeping,Indifferent,,NA,NA
+79,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-24,Cinnamon,White,,,,,Sitting,Watching/Cautious,,NA,NA
+80,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-25,Cinnamon,Gray,,Ground Plane,,,Eating,Indifferent,,NA,NA
+81,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-26,Cinnamon,Gray,,Ground Plane,,,Eating,Indifferent,,NA,NA
+82,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-27,Cinnamon,,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+83,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-28,Cinnamon,Gray,,Ground Plane,,,Foraging,Approaches,,NA,NA
+84,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-01,Gray,Gray,,Above Ground,20‰ÛÒ40,,Climbing,Indifferent,HAWK. HAAAAAWK. All in 1 tree.,40.804912,-73.943735
+85,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-02,Gray,Gray,,Above Ground,20‰ÛÒ40,,Climbing,Indifferent,HAWK. HAAAAAWK. All in 1 tree.,40.804912,-73.943736
+86,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-03,Gray,Gray,,Above Ground,20‰ÛÒ40,,Climbing,Watching/Cautious,HAWK. HAAAAAWK. All in 1 tree.,40.804913,-73.943735
+87,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-04,Gray,White,,Above Ground,20‰ÛÒ40,,Climbing,Indifferent,HAWK. HAAAAAWK. All in 1 tree.,40.804915,-73.943737
+88,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-05,Gray,Gray,,Above Ground,20‰ÛÒ40,,Climbing,Watching/Cautious,HAWK. HAAAAAWK. All in 1 tree.,40.804916,-73.943735
+89,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-06,Gray,Gray,,Above Ground,20‰ÛÒ40,,Climbing,Indifferent,HAWK. HAAAAAWK. All in 1 tree.,40.804914,-73.943736
+90,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-07,Gray,Gray,,Above Ground,20‰ÛÒ40,,Climbing,Indifferent,HAWK. HAAAAAWK. All in 1 tree.,40.804917,-73.943737
+91,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-08,Black,Black,,Above Ground,25,,Climbing,Watching/Cautious,Defending the tree from the HAAAAWK. The bravest.,40.804912,-73.943738
+92,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-09,Gray,Gray,,"Above Ground, Specific Location",2‰ÛÒ6,small trees,Climbing,Indifferent,"2 were chasing each other through some short trees, others just sat",40.804701,-73.944118
+93,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-10,Gray,Gray,,"Above Ground, Specific Location",2‰ÛÒ6,small trees,Climbing,Indifferent,"2 were chasing each other through some short trees, others just sat",40.804746,-73.94374
+94,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-11,Gray,Gray,,"Above Ground, Specific Location",2‰ÛÒ6,small trees,Climbing,Indifferent,"2 were chasing each other through some short trees, others just sat",40.804912,-73.94408
+95,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-12,Gray,Gray,,"Above Ground, Specific Location",2‰ÛÒ6,small trees,Climbing,Indifferent,"2 were chasing each other through some short trees, others just sat",40.804729,-73.944053
+96,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-13,Cinnamon,Gray,,Above Ground,4...3...2...1,,Climbing,Watching/Cautious,"Slid down a signpost while spinning. Other squirrels flung leaves at it, cheering.",40.804713,-73.944032
+97,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-14,Cinnamon,Gray,,Above Ground,15,,Climbing,Watching/Cautious,Too far to observe human interactions,40.804613,-73.943829
+98,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-15,Cinnamon,White,,Above Ground,15,,Climbing,Watching/Cautious,Too far to observe human interactions,40.804564,-73.943824
+99,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-16,Cinnamon,Gray,,Ground Plane,,,Running,Watching/Cautious,Ran up the the 3rd baseline of a Little League field. Wrong way!,40.804253,-73.944121
+100,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-17,Cinnamon,Gray,,Ground Plane,,,Running,Watching/Cautious,Scampered across path,40.803758,-73.94433
+101,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-18,Cinnamon,Gray,,Above Ground,4,,Shouting,Runs from,,40.803616,-73.944464
+102,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-19,Cinnamon,White,,Above Ground,4,,Shouting,Indifferent,,40.803413,-73.944207
+103,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-20,Cinnamon,Gray,,Above Ground,4,,Shouting,Runs from,,40.80338,-73.944148
+104,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-21,Gray,Gray,,Above Ground,4,,Shouting,Watching/Cautious,,40.803392,-73.944228
+105,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-22,Gray,Gray,,Above Ground,,,Shouting,Indifferent,HAWK. Same scene as 1‰ÛÒ8. All gray.,40.803794,-73.944003
+106,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-23,Gray,Gray,,Above Ground,,,Shouting,Indifferent,HAWK. Same scene as 1‰ÛÒ8. All gray.,40.803795,-73.944003
+107,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-24,Gray,Gray,,Above Ground,,,Shouting,Runs from,HAWK. Same scene as 1‰ÛÒ8. All gray.,40.803794,-73.944004
+108,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-25,Gray,Gray,,Above Ground,,,Shouting,Indifferent,HAWK. Same scene as 1‰ÛÒ8. All gray.,40.803794,-73.944005
+109,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-26,Gray,Gray,,Above Ground,,,Shouting,Runs from,HAWK. Same scene as 1‰ÛÒ8. All gray.,40.803796,-73.944003
+110,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-27,Gray,Gray,,Above Ground,,,Shouting,Runs from,HAWK. Same scene as 1‰ÛÒ8. All gray.,40.803795,-73.944004
+111,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-28,Gray,Gray,,Above Ground,3,,Eating,Indifferent,,40.80362,-73.944067
+112,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-29,Gray,Gray,,Above Ground,6,,Climbing,Runs from,,40.80352,-73.943629
+113,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-30,Gray,Gray,,Above Ground,6,,Climbing,Runs from,,40.803507,-73.943661
+114,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-31,Gray,Gray,,Above Ground,25,,Climbing,Watching/Cautious,,40.803981,-73.943327
+115,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-32,Gray,Gray,,Above Ground,25,,Climbing,Watching/Cautious,,40.804123,-73.943402
+116,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-34,Gray,Gray,,Above Ground,4,,Climbing,Runs from,,40.804878,-73.942781
+117,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-01,Cinnamon,Gray,,Ground Plane,,,Foraging,Indifferent,Scar on forehead,40.74145,-73.987884
+118,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-02,Cinnamon,Gray,,"Above Ground, Specific Location",30,in a tree,Sitting,Watching/Cautious,,40.742255,-73.987433
+119,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-03,Cinnamon,Gray,,Ground Plane,,,Foraging,Approaches,,40.742556,-73.986971
+120,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-05,Cinnamon,Gray,,"Ground Plane, Specific Location",,Farragut Lawn,Running,Indifferent,"Many pigeons lounging on lawn, tourist taking picture",40.74288,-73.987663
+121,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-06,Cinnamon,,,"Above Ground, Specific Location",15,in old tree (oval lawn),Sitting,Indifferent,#6 & #7 in same tree,40.742421,-73.98808
+122,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-07,Cinnamon,,,"Above Ground, Specific Location",20,in old tree (oval lawn),Sitting,Runs from,"#6 & #7 in same tree - In general, visitors/people are trying to coax squirrels and take pictures. They are delighted to see squirrels.",40.742421,-73.98808
+123,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-08,Cinnamon,White,,"Ground Plane, Specific Location",,base of tree,Foraging,Approaches,Dog owners encouraging dogs to chase squirrels,40.742807,-73.988435
+124,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-09,Cinnamon,,,"Ground Plane, Specific Location",,base of tree,Foraging,Indifferent,Ran from base of tree to lawn about 20 feet away in search of food,40.741528,-73.988324
+125,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-10,Cinnamon,,,"Above Ground, Specific Location",10,in tree,Climbing,Indifferent,"First spotted in tree, then climbed down. Squirrel was small in stature.",40.741805,-73.988448
+126,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-11,Cinnamon,White,,"Ground Plane, Above Ground",1,on bench,Climbing,Runs from,"First seen on bench. Then jumped to ground, ran across path and onto lawn in search of food.",40.741862,-73.988797
+127,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-01,Cinnamon,Cinnamon,,Ground Plane,,,Climbing,Runs from,,40.735981,-73.99062
+128,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-02,Gray,Gray,,Ground Plane,,,Running,Indifferent,,40.735847,-73.990115
+129,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-03,Cinnamon,,,Ground Plane,,,Foraging,Approaches,,40.735896,-73.99041
+130,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-04,Gray,,,Ground Plane,,,Foraging,Indifferent,,40.73579,-73.990738
+131,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-05,Gray,,,Ground Plane,,,Foraging,Indifferent,,40.735941,-73.99063
+132,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-06,Gray,,,"Above Ground, Specific Location",,in tree,Climbing,Watching/Cautious,,40.73566,-73.990351
+133,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-07,Gray,Cinnamon,Cinnamon tail,"Above Ground, Specific Location",,in tree,Climbing,Watching/Cautious,Baby smaller,40.735636,-73.990426
+134,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-08,Gray,Black,,,,,Climbing,Watching/Cautious,Baby smaller,40.73566,-73.990351
+135,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-09,Gray,,,,,,Foraging,Runs from,,40.735587,-73.990367
+136,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-10,Gray,,,Ground Plane,,,Foraging,Indifferent,,40.73542,-73.990453
+137,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-11,Cinnamon,,,Ground Plane,,,Foraging,Runs from,Ran away from kids and climbed up the tree,40.735514,-73.99033
+138,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-12,Gray,,,Ground Plane,,,Foraging,Watching/Cautious,Big,40.735945,-73.990201
+139,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-13,Cinnamon,,,,,,Foraging,Watching/Cautious,Big,40.735947,-73.99023
+140,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-14,Gray,,,Ground Plane,,,Foraging,Watching/Cautious,Big and chubby,40.73604,-73.98966
+141,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-15,Gray,,,Ground Plane,,,Foraging,Watching/Cautious,,40.73618,-73.990683
+142,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-16,Cinnamon,,,Ground Plane,,,Foraging,Watching/Cautious,,40.736298,-73.990559
+143,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-01,Gray,Cinnamon,,Ground Plane,,,Foraging,Approaches,Found nut and moved into tree,40.733753,-73.983682
+144,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-02,Gray,Cinnamon,,Ground Plane,,,Foraging,Approaches,,40.733648,-73.983483
+145,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-03,Gray,Cinnamon,,Ground Plane,,,Foraging,Runs from,,40.733631,-73.983419
+146,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-04,Cinnamon,Gray,,Ground Plane,,,Climbing,Runs from,,40.733546,-73.983263
+147,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-05,Cinnamon,Gray,,Above Ground,30,,Climbing,Watching/Cautious,,40.733591,-73.983263
+148,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-06,Cinnamon,Gray,,Above Ground,15,,Climbing,Indifferent,,40.733648,-73.984294
+149,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-07,Cinnamon,Gray,,Ground Plane,,,Foraging,Approaches,"Curious, thinks we have food",40.733737,-73.98438
+150,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-10,Cinnamon,Gray,,Ground Plane,,,Foraging,Approaches,Expected food,40.733506,-73.984553
+151,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-11,Cinnamon,Gray,,Above Ground,20,,Climbing,Indifferent,Juvenile? Playing with #12 in tree,40.733619,-73.984708
+152,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-13,Cinnamon,White,,Above Ground,40,,Eating,Runs from,,40.733737,-73.984644
+153,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-14,Cinnamon,Gray,,Above Ground,10,,Eating,Approaches,,40.733932,-73.984612
+154,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-15,Cinnamon,Gray,,Above Ground,30,,Eating,Indifferent,Far away,40.734014,-73.984461
+155,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-16,Cinnamon,Gray,,"Above Ground, Specific Location",60,in tree,Sleeping,Watching/Cautious,,40.734221,-73.984397
+156,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-17,Cinnamon,White,,"Above Ground, Specific Location",15,in tree,Eating,Watching/Cautious,,40.734083,-73.984322
+157,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-18,Cinnamon,White,,Ground Plane,,,Foraging,Indifferent,,40.73403,-73.984199
+158,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-20,Cinnamon,White,,Ground Plane,,,Foraging,Indifferent,,40.734314,-73.984231
+159,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-21,Cinnamon,White,,"Above Ground, Specific Location",30,in tree,Sleeping,Watching/Cautious,,40.734261,-73.984284
+160,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-22,Cinnamon,Gray,,"Above Ground, Specific Location",30,in tree,Sleeping,Watching/Cautious,,40.734144,-73.984059
+161,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-23,Gray,Cinnamon,,Ground Plane,,,Foraging,Indifferent,,40.734335,-73.984038
+162,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-24,Black,Cinnamon,,Ground Plane,,,Foraging,Watching/Cautious,,40.734383,-73.984118
+163,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-25,Black,Cinnamon,,Ground Plane,,,Foraging,Watching/Cautious,,40.734356,-73.984062
+164,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-01,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,Sun,40.730703,-73.995821
+165,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-02,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,,40.730638,-73.995784
+166,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-03,Gray,Gray,,Ground Plane,,,Foraging,Watching/Cautious,,40.730528,-73.995891
+167,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-04,Gray,Gray,,Ground Plane,,,Foraging,Watching/Cautious,,40.730394,-73.996009
+168,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-05,Gray,,,,,,Sleeping,Indifferent,,40.730341,-73.996052
+169,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-06,Gray,,,,,,Sleeping,Indifferent,People eating at bench with dog,40.7303,-73.996106
+170,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-07,Gray,,,,,,Sleeping,Indifferent,,40.730247,-73.996175
+171,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-08,Gray,,,,,,Sleeping,Indifferent,,40.730231,-73.996138
+172,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-09,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,,40.730223,-73.996132
+173,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-10,Gray,,,,,,Sleeping,Indifferent,Shady,40.730077,-73.996277
+174,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-12,Gray,Gray,,Above Ground,25,,Climbing,Indifferent,,NA,NA
+175,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-14,Gray,,,"Above Ground, Specific Location",15,in tree,Eating,Runs from,,NA,NA
+176,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-20,Gray,,,Ground Plane,,,Sleeping,Indifferent,,40.729976,-73.997154
+177,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-21,Gray,,,Ground Plane,,,Sleeping,Indifferent,,40.72996,-73.997079
+178,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-22,Gray,,,Ground Plane,,,Sleeping,Indifferent,,40.729927,-73.997036
+179,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-23,Gray,,,Ground Plane,,,Sleeping,Indifferent,,40.729988,-73.997106
+180,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-24,Gray,,,Ground Plane,,,Sleeping,Indifferent,,40.72998,-73.997031
+181,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-25,Gray,,,,,,Sleeping,Indifferent,,40.730318,-73.997213
+182,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-26,Gray,,,,,,Sleeping,Indifferent,,40.730301,-73.997251
+183,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-27,Gray,,,,,,Sleeping,Indifferent,,40.730334,-73.997589
+184,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-28,Gray,,,,,,Sleeping,Indifferent,,40.730411,-73.997589
+185,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-29,Gray,,,,,,Sleeping,Indifferent,,40.730395,-73.997535
+186,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-30,Gray,,,"Above Ground, Specific Location",,tree,Sleeping,Indifferent,,40.730411,-73.997766
+187,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-31,Gray,,,,,,Sleeping,Indifferent,,40.731031,-73.999122
+188,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-32,Gray,,,"Above Ground, Specific Location",,in tree high,Sleeping,Indifferent,,40.731504,-73.998977
+189,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-33,Gray,,,"Above Ground, Specific Location",,in tree high,Sleeping,Indifferent,,40.731548,-73.998842
+190,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-34,Gray,,,"Above Ground, Specific Location",,in tree high,Sleeping,Indifferent,,40.731608,-73.998928
+191,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-35,Gray,,,"Above Ground, Specific Location",,in tree high,Sleeping,Indifferent,,40.731503,-73.999014
+192,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-36,Gray,,,"Above Ground, Specific Location",,"tree canopy, low down",Sleeping,Indifferent,,40.731552,-73.998788
+193,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-37,Gray,,,"Above Ground, Specific Location",,tree high,Sleeping,Indifferent,,40.731952,-73.998647
+194,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-38,Gray,,,"Above Ground, Specific Location",,tree high,Sleeping,Indifferent,,40.731936,-73.998598
+195,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-39,Gray,,,"Above Ground, Specific Location",,tree low,Sleeping,Indifferent,,40.732001,-73.998491
+196,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-40,Gray,,,Ground Plane,,,Foraging,Runs from,Busy area,40.731974,-73.998482
+197,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-41,Gray,,,,,,Sleeping,Indifferent,,40.731861,-73.998122
+198,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-42,Gray,,,,,,Sleeping,Indifferent,,40.731804,-73.997999
+199,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-43,Gray,,,"Above Ground, Specific Location",,tree,Sleeping,Indifferent,,40.731747,-73.997859
+200,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-44,Gray,,,"Above Ground, Specific Location",,tree,Sleeping,Indifferent,,40.731665,-73.997747
+201,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-45,Gray,,,"Above Ground, Specific Location",,tree,Sleeping,Indifferent,,40.731548,-73.99758
+202,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-46,Gray,,,"Above Ground, Specific Location",,tree high,Sleeping,Indifferent,,40.731389,-73.997231
+203,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-47,Gray,,,,,,Sleeping,Indifferent,Sun,40.7312,-73.996805
+204,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-48,Gray,,,"Above Ground, Specific Location",,small tree,Sleeping,Indifferent,,40.731119,-73.996655
+205,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-49,Gray,,,Specific Location,,on bench,Sleeping,Indifferent,,40.731103,-73.996601
+206,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-50,Gray,,,,,,Sleeping,Indifferent,,40.73092,-73.996242
+207,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-51,Gray,,,,,,Sleeping,Indifferent,,40.730782,-73.996017
+208,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-01,Gray,Gray,,Specific Location,,Tree,Climbing,Runs from,"Nut in mouth, very fast moving",NA,NA
+209,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-02,Gray,Gray,,Ground Plane,,,Foraging,Runs from,,NA,NA
+210,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-03,Black,Black,,Ground Plane,,,Foraging,Approaches,,NA,NA
+211,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-04,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+212,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-05,Cinnamon,Gray,,Ground Plane,,,Running,Runs from,,NA,NA
+213,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-06,Cinnamon,Gray,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+214,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-07,Cinnamon,Gray,,Ground Plane,,,Foraging,Approaches,,NA,NA
+215,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-08,Cinnamon,Gray,,Above Ground,20,,Climbing,Indifferent,,NA,NA
+216,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-09,Cinnamon,Gray,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+217,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-12,Cinnamon,Gray,,Ground Plane,,,Foraging,Runs from,,NA,NA
+218,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-13,Cinnamon,Gray,,Ground Plane,,,Foraging,Runs from,,NA,NA
+219,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-14,Cinnamon,Gray,,Ground Plane,,,Foraging,Watching/Cautious,,NA,NA
+220,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-15,Cinnamon,Gray,,Specific Location,,Tree,Climbing,Watching/Cautious,,NA,NA
+221,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-16,Cinnamon,Gray,,Specific Location,,Tree,Climbing,Indifferent,,NA,NA
+222,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-17,Cinnamon,Gray,,Specific Location,,Tree,Climbing,Indifferent,,NA,NA
+223,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-18,Cinnamon,Gray,,Specific Location,,Tree,Climbing,Runs from,,NA,NA
+224,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-19,Cinnamon,Gray,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+225,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-20,Cinnamon,Gray,,Ground Plane,,,Foraging,Runs from,,NA,NA
+226,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-21,Cinnamon,Gray,,Specific Location,,Tree,Climbing,Indifferent,,NA,NA
+227,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-22,Cinnamon,Gray,,Specific Location,,Tree,Sitting,Indifferent,,NA,NA
+228,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-23,Cinnamon,Gray,,Specific Location,,Tree,Sitting,Indifferent,,NA,NA
+229,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-24,Cinnamon,Gray,,Specific Location,,Tree,Sitting,Approaches,,NA,NA
+230,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-25,Cinnamon,Gray,,Ground Plane,,,Foraging,Approaches,,NA,NA
+231,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-26,Cinnamon,Gray,,Ground Plane,,,Foraging,Approaches,,NA,NA
+232,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-27,Cinnamon,Gray,,Ground Plane,,,Foraging,Approaches,,NA,NA
+233,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-28,Cinnamon,Gray,,Ground Plane,,,Foraging,Approaches,,NA,NA
+234,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-29,Black,Gray,,Ground Plane,,,Foraging,Approaches,,NA,NA
+235,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-30,Black,Gray,,Ground Plane,,,Foraging,Approaches,,NA,NA
+236,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-31,Black,Gray,,Ground Plane,,,Running,Watching/Cautious,,NA,NA
+237,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-32,Black,Gray,,Ground Plane,,,Foraging,Approaches,,NA,NA
+238,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-33,Black,Gray,,Specific Location,,Tree,Sitting,Approaches,,NA,NA
+239,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-34,Black,Gray,,Specific Location,,Tree,Climbing,Approaches,,NA,NA
+240,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-35,Black,Gray,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+241,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-36,Black,Gray,,Specific Location,,Tree,Climbing,Indifferent,,NA,NA
+242,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-37,Black,Gray,,Specific Location,,Tree,Climbing,Watching/Cautious,,NA,NA
+243,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-38,Gray,Gray,,Ground Plane,,,Foraging,Watching/Cautious,,NA,NA
+244,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-39,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+245,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-40,Gray,Gray,,Ground Plane,,,Foraging,Runs from,,NA,NA
+246,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-41,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+247,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-42,Gray,Gray,,Ground Plane,,,Foraging,Approaches,,NA,NA
+248,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-43,Gray,Gray,,Ground Plane,,,Foraging,Runs from,,NA,NA
+249,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-44,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+250,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-45,Gray,Gray,,Ground Plane,,,Foraging,Approaches,,NA,NA
+251,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-46,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+252,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-47,Gray,Gray,,Ground Plane,,,Foraging,Watching/Cautious,,NA,NA
+253,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-48,Black,Black,,Ground Plane,,,Foraging,Watching/Cautious,They (#48 & #49) are fat.,NA,NA
+254,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-49,Black,Black,,Ground Plane,,,Foraging,Watching/Cautious,They (#48 & #49) are fat.,NA,NA
+255,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-52,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+256,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-53,Gray,Gray,,Ground Plane,,,Foraging,Indifferent,,NA,NA
+257,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-54,Gray,Gray,,Specific Location,,Tree,Climbing,Indifferent,,NA,NA
+258,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-55,Black,Gray,,Specific Location,,Tree,Climbing,Watching/Cautious,,NA,NA
+259,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-56,Black,Gray,,Specific Location,,Tree,Climbing,Watching/Cautious,,NA,NA
+260,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-57,Black,Gray,,Specific Location,,Tree,Climbing,Watching/Cautious,,NA,NA
+261,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-58,Black,Gray,,Ground Plane,,,Foraging,Watching/Cautious,,NA,NA
+262,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-59,Black,Gray,,Ground Plane,,,Foraging,Watching/Cautious,,NA,NA
+263,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-01,Black,Gray,,Ground Plane,,,Running,Watching/Cautious,Nibbling on shrubs?,40.725738,-73.972105
+264,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-02,Black,Black,,Ground Plane,,,Running,Watching/Cautious,,40.722614,-73.972894
+265,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-03,Black,Gray,,"Ground Plane, Above Ground",,,Climbing,Approaches,Siblings? (with #4) Playing (with #4) in fenced yard,40.72263,-73.973001
+266,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-04,Black,Gray,,"Ground Plane, Above Ground",,,Eating,Watching/Cautious,Siblings? (with #3) Playing (with #3) in fenced yard,40.72263,-73.973109
+267,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-05,Black,Gray,,Ground Plane,,,Foraging,Approaches,,40.722614,-73.973033
+268,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-06,Black,Gray,,Ground Plane,,,Foraging,Approaches,,40.722173,-73.97272
+269,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-07,Black,Gray,,"Ground Plane, Above Ground",8,,Climbing,Indifferent,,40.719379,-73.973504
+270,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-08,Black,Gray,,"Ground Plane, Above Ground",8,,Climbing,Indifferent,,40.71935,-73.973445
+271,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-09,Black,Gray,,"Above Ground, Specific Location",12,in a tree,Climbing,Watching/Cautious,,40.721923,-73.974121
+272,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-10,Black,Gray,,Ground Plane,,,Eating,Approaches,,40.724011,-73.97313
+273,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-11,Black,Gray,,Ground Plane,,,Climbing,Indifferent,Was very close to a dog and hid in a tree,40.724608,-73.972841
+274,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-12,Black,Gray,,Ground Plane,,,Foraging,Runs from,,40.724774,-73.97275
+275,LOWER MANHATTAN,C,Seward Park,14,C-14-01,Black,"Cinnamon, White",,Ground Plane,,,Eating,Runs from,,40.715415,-73.989567
+276,LOWER MANHATTAN,C,Seward Park,14,C-14-02,Black,Cinnamon,,Ground Plane,,,Eating,Indifferent,"Bushier and plump, big tail",40.715484,-73.989299
+277,LOWER MANHATTAN,C,Seward Park,14,C-14-03,Gray,Cinnamon,,Ground Plane,,,Foraging,Runs from,,40.714749,-73.989577
+278,LOWER MANHATTAN,C,Seward Park,14,C-14-04,Gray,Cinnamon,,Ground Plane,,,Climbing,Approaches,Looking to us for food! Climbed tree when we did not have any to give.,40.71468,-73.989776
+279,LOWER MANHATTAN,C,Seward Park,14,C-14-05,Gray,Cinnamon,Cinnamon tail,"Ground Plane, Above Ground",9,,Climbing,Approaches,"Skinny tail, lots of digging, found an acorn and is eating",40.714846,-73.989679
+280,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-01,Black,,,Above Ground,20,,Climbing,Runs from,Frantically zig-zagging whilst clutching a mid-afternoon snack,40.712159,-73.979415
+281,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-02,Black,,,,,,Foraging,Approaches,Digging in leaves carelessly,40.712199,-73.979519
+282,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-03,Black,,,,,,Sleeping,Watching/Cautious,Multiple nut dives into the leaves; mostly successful,40.712118,-73.97968
+283,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-04,Black,Cinnamon,,,,,Sleeping,Watching/Cautious,Playing tag with #5,40.712179,-73.979776
+284,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-05,Black,Cinnamon,,,,,Sleeping,Watching/Cautious,Playing tag with #4,40.712216,-73.979857
+285,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-07,Black,,,Above Ground,25,,Sleeping,Watching/Cautious,,40.71224,-73.979744
+286,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-09,Black,Cinnamon,,Above Ground,8,,Climbing,Watching/Cautious,Meandering among the branches,40.711866,-73.97976
+287,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-10,Black,Gray,,Above Ground,8,,Climbing,Approaches,"Came by to make sure we had proper Sighter buttons, looks like a Gerald",40.71174,-73.980539
+288,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-13,Black,Black,,"Ground Plane, Above Ground",30,,Climbing,Watching/Cautious,"#13, #14 & #15: Scattering and teasing a Shih Tzu that chased them, runs from dog",40.711417,73.977767
+289,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-14,Black,Black,,"Ground Plane, Above Ground",30,,Climbing,Watching/Cautious,"#13, #14 & #15: Scattering and teasing a Shih Tzu that chased them, runs from dog",40.711421,-73.977692
+290,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-15,Black,Black,,"Ground Plane, Above Ground",30,,Climbing,Watching/Cautious,"#13, #14 & #15: Scattering and teasing a Shih Tzu that chased them, runs from dog",40.711409,-73.977719
+291,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-16,Black,,,Above Ground,20‰ÛÒ30,,Foraging,Approaches,So curious! A unique color and thirst for the unknown.,40.711303,-73.97759
+292,LOWER MANHATTAN,C,Columbus Park,16,C-16-01,Gray,Cinnamon,Cinnamon streak down back,Ground Plane,,,Climbing,Approaches,"Boy, Alert ‰ÛÓ lots of basketball close by",40.714867,-74.000236
+293,LOWER MANHATTAN,C,Columbus Park,16,C-16-02,Gray,Cinnamon,,Ground Plane,,,Foraging,Watching/Cautious,,40.7159,-74.000167
+294,LOWER MANHATTAN,C,Columbus Park,16,C-16-03,Gray,,,Above Ground,25,,Sleeping,Indifferent,Nibbling on branches,40.714875,-74.000346
+295,LOWER MANHATTAN,C,Columbus Park,16,C-16-04,Gray,,,Above Ground,35,,Climbing,Approaches,Patchy ‰ÛÓåÊbald spots,40.715779,-73.999887
+296,LOWER MANHATTAN,C,Teardrop Park,18,C-18-01,Gray,Cinnamon,,Ground Plane,,,Running,Runs from,"Ran up tree and down tree, tail vibration ‰ÛÓ not a flag or twitch, kuk sound",40.716335,-74.015612
+297,LOWER MANHATTAN,C,City Hall Park,19,C-19-01,Cinnamon,White,,Ground Plane,,,Foraging,Watching/Cautious,,40.712828,-74.005072
+298,LOWER MANHATTAN,C,City Hall Park,19,C-19-02,Cinnamon,,,Above Ground,,,Climbing,Watching/Cautious,Chasing #3 up the tree,40.712938,-74.005152
+299,LOWER MANHATTAN,C,City Hall Park,19,C-19-03,Cinnamon,,,Above Ground,,,Climbing,Watching/Cautious,Chasing #2 up the tree,40.712938,-74.005152
+300,LOWER MANHATTAN,C,City Hall Park,19,C-19-04,Cinnamon,"Cinnamon, White",,Ground Plane,,,Eating,Approaches,Very chubby cinnamon squirrel got peanuts from humans and buried them in leaves,40.712893,-74.005233
+301,LOWER MANHATTAN,C,City Hall Park,19,C-19-05,Cinnamon,"Cinnamon, White",,Ground Plane,,,Eating,Approaches,Couldn't find a good spot to bury theirs (peanuts from humans),40.712893,-74.005233
+302,LOWER MANHATTAN,C,City Hall Park,19,C-19-06,Cinnamon,Cinnamon,,Ground Plane,,,Eating,Approaches,Being fed by people,40.712922,-74.005147
+303,LOWER MANHATTAN,C,City Hall Park,19,C-19-07,Cinnamon,Cinnamon,,Ground Plane,,,Eating,Approaches,Being fed by people,40.712922,-74.005147
+304,LOWER MANHATTAN,C,City Hall Park,19,C-19-08,Cinnamon,White,Very distinct white outlines on ears and ring around tail,Ground Plane,,,Eating,Approaches,Came out to get peanut from human,40.713044,-74.005404
+305,LOWER MANHATTAN,C,City Hall Park,19,C-19-09,Cinnamon,Gray,,Above Ground,5,,Climbing,Runs from,"Perched in a bush, watched us and scampered off to eat - very little squirrel",40.712836,-74.005662
+306,LOWER MANHATTAN,C,City Hall Park,19,C-19-10,Cinnamon,White,,"Ground Plane, Specific Location",,on City Hall back steps,Running,Indifferent,,40.712881,-74.005823
+307,LOWER MANHATTAN,C,City Hall Park,19,C-19-11,Cinnamon,"Cinnamon, White",,"Ground Plane, Specific Location",,by back steps of City Hall,Foraging,Approaches,Found something to eat buried in leaves and then looked for more,40.712995,-74.005963
+308,LOWER MANHATTAN,C,City Hall Park,19,C-19-14,Cinnamon,White,,Ground Plane,,,Foraging,Runs from,,40.713339,-74.006313
+309,LOWER MANHATTAN,C,City Hall Park,19,C-19-15,Cinnamon,White,,Ground Plane,,,Running,Watching/Cautious,"Very active, darting around",40.713518,-74.006308
+310,LOWER MANHATTAN,C,City Hall Park,19,C-19-16,Cinnamon,White,Lots of white!,Above Ground,3,,Climbing,Watching/Cautious,"Perched on knot of tree, watching us, then started foraging",40.71312,-74.006862
+311,LOWER MANHATTAN,C,City Hall Park,19,C-19-17,Cinnamon,White,,Ground Plane,,,Foraging,Approaches,Successfully finding buried food,40.712872,-74.006878
+312,LOWER MANHATTAN,C,City Hall Park,19,C-19-18,Cinnamon,White,,Ground Plane,,,Foraging,Indifferent,"Rolling around in loose dirt with a ""swimming"" motion",40.712872,-74.006878
+313,LOWER MANHATTAN,C,Battery Park,20,C-20-01,Gray,Cinnamon,,Above Ground,5,,Sleeping,Runs from,#1‰ÛÒ5 all together being fed by humans,40.704053,-74.01612
+314,LOWER MANHATTAN,C,Battery Park,20,C-20-02,Gray,"Cinnamon, White",,Specific Location,,on fencing,Climbing,Watching/Cautious,#1‰ÛÒ5 all together being fed by humans - Hungry,40.704011,-74.016134
+315,LOWER MANHATTAN,C,Battery Park,20,C-20-03,Gray,"Cinnamon, White",,Ground Plane,,,Sleeping,Indifferent,"#1‰ÛÒ5 all together being fed by humans, Had a ton of leaves in his mouth for several minutes",40.703897,-74.016118
+316,LOWER MANHATTAN,C,Battery Park,20,C-20-04,Cinnamon,,,Ground Plane,,,Sleeping,Watching/Cautious,#1‰ÛÒ5 all together being fed by humans,40.703885,-74.016161
+317,LOWER MANHATTAN,C,Battery Park,20,C-20-05,Gray,"Cinnamon, White",,Specific Location,,on fencing,Sleeping,Watching/Cautious,#1‰ÛÒ5 all together being fed by humans,40.703848,-74.016134
+318,LOWER MANHATTAN,C,Battery Park,20,C-20-07,Cinnamon,White,,Ground Plane,,,Running,Runs from,,40.704211,-74.015859
+319,LOWER MANHATTAN,C,Battery Park,20,C-20-08,Gray,White,,Ground Plane,,,Foraging,Watching/Cautious,Obviously a couple with #9,40.704142,-74.015837
+320,LOWER MANHATTAN,C,Battery Park,20,C-20-09,Gray,White,,Ground Plane,,,Foraging,Watching/Cautious,Obviously a couple with #8,40.704175,-74.015306
+321,LOWER MANHATTAN,C,Battery Park,20,C-20-10,Gray,"Cinnamon, White",,Ground Plane,,,Running,Indifferent,Skinny with tiny ears,40.704171,-74.015242
+322,LOWER MANHATTAN,C,Battery Park,20,C-20-11,Gray,White,,Ground Plane,,,Foraging,Approaches,,40.704468,-74.014774
+323,LOWER MANHATTAN,C,Battery Park,20,C-20-12,Gray,White,,Ground Plane,,,Foraging,Approaches,,40.704453,-74.014757
+324,LOWER MANHATTAN,C,Battery Park,20,C-20-13,Gray,White,,Ground Plane,,,Eating,Indifferent,,40.70442,-74.014741
+325,LOWER MANHATTAN,C,Battery Park,20,C-20-18,Gray,,,Ground Plane,,,Sleeping,Watching/Cautious,Looks like he has a patch of fur missing on his back,40.703383,-74.015584
+326,LOWER MANHATTAN,C,Battery Park,20,C-20-19,Gray,Cinnamon,,Above Ground,2,,Climbing,Watching/Cautious,,40.70295,-74.015813
+327,LOWER MANHATTAN,C,Battery Park,20,C-20-20,Cinnamon,,,Ground Plane,,,Sleeping,Watching/Cautious,,40.702934,-74.015775
+328,LOWER MANHATTAN,C,Battery Park,20,C-20-22,Cinnamon,,,Specific Location,,on a bench,Sleeping,Watching/Cautious,,40.702411,-74.015896
+329,LOWER MANHATTAN,C,Battery Park,20,C-20-24,Gray,Cinnamon,,Specific Location,,on fence,Climbing,Watching/Cautious,,40.702467,-74.015757
+330,LOWER MANHATTAN,C,Battery Park,20,C-20-25,Gray,Cinnamon,,"Above Ground, Specific Location",15,in a tree,Sleeping,Watching/Cautious,,40.702597,-74.016132
+331,LOWER MANHATTAN,C,Battery Park,20,C-20-26,Gray,Cinnamon,,Specific Location,,on fence,Climbing,Watching/Cautious,,40.702618,-74.016556
+332,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-02,Gray,Cinnamon,White underbelly,Above Ground,< 1,,Climbing,Indifferent,,40.725511,-73.943609
+333,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-04,Gray,,,Above Ground,15,,Climbing,Watching/Cautious,,40.725478,-73.944113
+334,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-05,Gray,,,Above Ground,30,,Eating,Watching/Cautious,,40.725527,-73.943974
+335,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-06,Gray,Cinnamon,,Ground Plane,,,Eating,Approaches,We fed him!,40.725397,-73.944124
+336,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-07,Gray,,,Above Ground,30,,Climbing,Watching/Cautious,,40.725413,-73.943984
+337,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-08,Gray,,,Ground Plane,,,Climbing,Watching/Cautious,,40.724755,-73.944006
+338,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-09,Gray,,,Ground Plane,,,Climbing,Watching/Cautious,,40.723974,-73.943845
+339,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-10,Gray,,,Ground Plane,,,Climbing,Watching/Cautious,,40.723462,-73.943952
+340,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-11,Gray,,,Ground Plane,,,Climbing,Watching/Cautious,,40.725372,-73.943652
+341,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-12,Gray,White,,"Above Ground, Specific Location",15,by playground,Sitting,Indifferent,,40.725364,-73.943512
+342,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-13,Gray,Gray,,Ground Plane,,at Nassau (Avenue) / Henry (Street) ,Running,Runs from,,40.725397,-73.943297
+343,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-14,Gray,Cinnamon,,Ground Plane,,,Running,Indifferent,,40.725197,-73.943273
+344,BROOKLYN,D,McCarren Park,22,D-22-01,Cinnamon,White,,Ground Plane,,,Eating,Indifferent,,40.72167,-73.953364
+345,BROOKLYN,D,McCarren Park,22,D-22-02,Gray,White,,Ground Plane,,,Eating,Approaches,,40.721768,-73.953192
+346,BROOKLYN,D,McCarren Park,22,D-22-03,Gray,White,,Ground Plane,,,Running,Runs from,Ran in from baseball field,40.721662,-73.953278
+347,BROOKLYN,D,McCarren Park,22,D-22-04,Gray,Cinnamon,,Above Ground,,,Climbing,Runs from,,40.721857,-73.953139
+348,BROOKLYN,D,McCarren Park,22,D-22-05,Cinnamon,,,Ground Plane,,,Running,Approaches,Running around,40.721941,-73.952947
+349,BROOKLYN,D,McCarren Park,22,D-22-06,Cinnamon,,,Above Ground,,,Climbing,Approaches,Perched up ‰ÛÓ came close to us!,40.722039,-73.952796
+350,BROOKLYN,D,McCarren Park,22,D-22-08,Cinnamon,White,,Ground Plane,,,Running,Runs from,,40.721713,-73.95305
+351,BROOKLYN,D,McCarren Park,22,D-22-09,Gray,Gray,,"Ground Plane, Specific Location",,In a trash and metal heap next to baseball field,Foraging,Indifferent,,40.721933,-73.953147
+352,BROOKLYN,D,McCarren Park,22,D-22-10,Gray,"Cinnamon, White",,"Above Ground, Specific Location",12,in tree,Climbing,Runs from,Ran up a tree,40.722283,-73.953115
+353,BROOKLYN,D,McCarren Park,22,D-22-11,Gray,Gray,,Ground Plane,,,Running,Runs from,Ran out of park,40.722698,-73.953198
+354,BROOKLYN,D,McCarren Park,22,D-22-12,Gray,White,,Ground Plane,,,Foraging,Indifferent,Birds walking nearby,40.722819,-73.952095
+355,BROOKLYN,D,McCarren Park,22,D-22-13,Gray,White,,Above Ground,,,Climbing,Indifferent,Ran from ground to tree,40.722966,-73.951987
+356,BROOKLYN,D,McCarren Park,22,D-22-14,Cinnamon,White,,"Above Ground, Specific Location",3,in short tree,Climbing,Watching/Cautious,,40.723136,-73.951794
+357,BROOKLYN,D,McCarren Park,22,D-22-15,Gray,White,,"Above Ground, Specific Location",,in tree,Eating,Indifferent,,40.723071,-73.951697
+358,BROOKLYN,D,McCarren Park,22,D-22-16,Cinnamon,Gray,,"Ground Plane, Specific Location",,below park benches,Foraging,Indifferent,Great jumper,40.723006,-73.951655
+359,BROOKLYN,D,McCarren Park,22,D-22-18,Cinnamon,Cinnamon,,Above Ground,14,,Sitting,Indifferent,Perched on branch,40.722603,-73.951449
+360,BROOKLYN,D,McCarren Park,22,D-22-19,Cinnamon,"Gray, White",,Above Ground,20,,Climbing,Watching/Cautious,"Very small, climbed from one tree to another",40.721247,-73.951609
+361,BROOKLYN,D,McCarren Park,22,D-22-20,Black,"Cinnamon, White",,Above Ground,75,,Climbing,Indifferent,"Small, on tree on branch, two others below it",40.720606,-73.952769
+362,BROOKLYN,D,McCarren Park,22,D-22-21,Black,"Cinnamon, White",,Above Ground,15,,Climbing,Indifferent,"Started in middle of tree, started chasing others up in branches, jumped from branch to branch",40.720582,-73.952694
+363,BROOKLYN,D,McCarren Park,22,D-22-22,Black,"Cinnamon, White",,Above Ground,20,,Climbing,Indifferent,One of three together on a tree,40.720533,-73.95272
+364,BROOKLYN,D,McCarren Park,22,D-22-23,Black,White,,Above Ground,20,,Climbing,Indifferent,Jumped from one tree to next,40.720488,-73.952806
+365,BROOKLYN,D,McCarren Park,22,D-22-24,Black,White,,Ground Plane,,,Foraging,Indifferent,Dog chased it up a tree,40.720458,-73.954244
+366,BROOKLYN,D,McCarren Park,22,D-22-25,Black,"Cinnamon, White",,Ground Plane,,,Foraging,Watching/Cautious,,40.720018,-73.953442
+367,BROOKLYN,D,McCarren Park,22,D-22-26,Black,White,,Ground Plane,,,Foraging,Indifferent,Fast,40.720026,-73.953652
+368,BROOKLYN,D,McCarren Park,22,D-22-27,Black,Cinnamon,,Ground Plane,,,Foraging,Indifferent,Near a lot of little birds,40.719777,-73.952774
+369,BROOKLYN,D,McCarren Park,22,D-22-28,Black,White,,Ground Plane,,,Running,Watching/Cautious,Running against fence,40.720114,-73.952768
+370,BROOKLYN,D,McCarren Park,22,D-22-29,Black,"Cinnamon, White",,Ground Plane,,,Sitting,Runs from,"Standing at base of tree, then climbed up",40.719944,-73.952505
+371,BROOKLYN,D,McCarren Park,22,D-22-30,Black,White,,Ground Plane,,,Foraging,Approaches,,40.720448,-73.952521
+372,BROOKLYN,D,McCarren Park,22,D-22-31,Cinnamon,White,,Ground Plane,,,Foraging,Approaches,Walking around bushes,40.720412,-73.952353
+373,BROOKLYN,D,McCarren Park,22,D-22-32,Gray,"Cinnamon, White",,Ground Plane,,,Foraging,Indifferent,A little on the robust side,40.720372,-73.952326
+374,BROOKLYN,D,McCarren Park,22,D-22-33,Gray,Cinnamon,,Ground Plane,,,Foraging,Indifferent,Busy digging for something,40.720749,-73.951891
+375,BROOKLYN,D,McCarren Park,22,D-22-36,Cinnamon,"Gray, Cinnamon",Reddish tail,Ground Plane,,,Eating,Watching/Cautious,Pretty fat,40.72112,-73.95104
+376,BROOKLYN,D,McCarren Park,22,D-22-37,Gray,Gray,,Ground Plane,,,Running,Indifferent,"Turning around, trying to eat",40.721315,-73.950943
+377,BROOKLYN,D,McCarren Park,22,D-22-38,Gray,"Cinnamon, White",,Ground Plane,,,Eating,Watching/Cautious,Sitting next to #39 and eating,40.721258,-73.950799
+378,BROOKLYN,D,McCarren Park,22,D-22-39,Gray,"Cinnamon, White",,Ground Plane,,,Eating,Watching/Cautious,Sitting next to #38 and eating,40.721217,-73.95077
+379,BROOKLYN,D,McCarren Park,22,D-22-40,Cinnamon,White,,Ground Plane,,,Foraging,Indifferent,Fluffy,40.721173,-73.950781
+380,BROOKLYN,D,McCarren Park,22,D-22-41,Cinnamon,Cinnamon,,Above Ground,,,Foraging,Indifferent,Skinny,40.721161,-73.950732
+381,BROOKLYN,D,McCarren Park,22,D-22-42,Gray,Gray,,Above Ground,,,Climbing,Indifferent,Clinging to tree,40.721124,-73.950797
+382,BROOKLYN,D,McCarren Park,22,D-22-43,Gray,White,,Above Ground,10,,Climbing,Watching/Cautious,Playing with another squirrel in a tree,40.721026,-73.950765
+383,BROOKLYN,D,McCarren Park,22,D-22-44,Gray,"Cinnamon, White",,Ground Plane,,,Foraging,Watching/Cautious,Ran very quickly,40.719376,-73.952326
