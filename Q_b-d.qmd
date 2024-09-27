@@ -1,0 +1,197 @@
+---
+title: "HW4"
+author: "Liwen Yin"
+format: pdf
+editor: visual
+---
+
+## Question B
+
+```{r}
+library(dplyr)
+library(data.table)
+buoy_data <- function(start_year = 1985, end_year = 2023) {
+  file_root <- "https://www.ndbc.noaa.gov/view_text_file.php?filename=44013h"
+  tail <- ".txt.gz&dir=data/historical/stdmet/"
+  
+  all_data <- list()  
+  
+  for (year in start_year:end_year) {
+    path <- paste0(file_root, year, tail)
+    preview_data <- tryCatch({
+      fread(path, nrows = 2, header = FALSE)
+    })
+
+    if (all(sapply(preview_data[2,], is.character))) {
+      skip_value <- 2  
+    } else if (all(sapply(preview_data[2,], is.numeric))) {
+      skip_value <- 1 
+    }
+    
+    header <- tryCatch({
+      scan(path, what = 'character', nlines = 1, quiet = TRUE)
+    }, error = function(e) {
+      message(paste("Error reading header for year", year, ": ", e))
+      return(NULL)
+    })
+    
+    if (year >= 1985 && year <= 1999) {
+      fill_value <- 16
+    } else if (year >= 2000) {
+      fill_value <- 16
+    }
+      else if (year >= 2001 && year <= 2023) {
+      fill_value <- 17
+      }
+    
+    buoy <- tryCatch({
+      fread(path, header = FALSE, skip = skip_value, fill = Inf)
+    })
+    
+    if (ncol(buoy) < fill_value) {
+      buoy[, paste0("V", (ncol(buoy) + 1):fill_value) := NA]
+    }
+    colnames(buoy) <- header
+    buoy$Year <- year
+    all_data[[length(all_data) + 1]] <- buoy
+  }
+  combined_data <- rbindlist(all_data, fill = TRUE)
+  combined_data <- combined_data %>%
+    select(Year, everything()) %>%  
+    select(-one_of(c("YY", "YYYY", "#YY"))) 
+  return(combined_data)
+}
+buoy_data_1985_2023 <- buoy_data(1985)
+buoy_b <- buoy_data_1985_2023
+buoy_data_1985_2023 <- buoy_data_1985_2023 %>%
+  mutate(across(everything(), ~replace(., . %in% c(99, 999), NA)))
+print(head(buoy_data_1985_2023))
+
+```
+
+For a very long-term data, there might be new variables added into and it is appropriate to set missing data as NA in R. Leaving 999 or 99 in the dataset could be misinterpreted as an actual value, leading to misleading results. So the code above I change "99" and "999" into NA, for better analyze. However, there are also special meanings for placeholders. For example, 999 could indicate a specific status or condition. Simply replacing it with NA could obscure important information.
+
+```{r}
+library(dplyr)
+# Count total NAs in each variable
+na_count <- sapply(buoy_data_1985_2023, function(x) sum(is.na(x)))
+print(na_count)
+max(na_count)
+# Count missing values by Year for all columns
+missing_by_year <- buoy_data_1985_2023 %>%
+  group_by(Year) %>%
+  summarise(across(everything(), ~ sum(is.na(.)), .names = "NA_{col}"))
+print(missing_by_year)
+```
+
+The codes above show how many NAs in each variable and in each year. It is obvious that some variables like TIDE, VIS have large amount of missing values. Before 2000, variables are 12, and from 2001 to 2023, variables are 13.
+
+##Question C
+
+```{r}
+library(tidyverse)
+library(dplyr)
+buoy_data_1985_2023 <- buoy_data_1985_2023 %>%
+  mutate(date = make_date(Year, MM, DD))  
+average_daily_WTMP <- buoy_data_1985_2023 %>%
+  group_by(date) %>%
+  summarize(average_WTMP = mean(WTMP, na.rm = TRUE))  
+ggplot(average_daily_WTMP, aes(x = date, y = average_WTMP)) +
+  geom_line() +
+  labs(title = "Daily Average Sea Surface Temperature Over Time",
+       x = "Date",
+       y = "Average Sea Surface Temperature") +
+  theme_minimal()
+
+subset_buoy_data <- buoy_data_1985_2023 %>%
+  filter(!is.na(WTMP) & !is.na(WSPD) & !is.na(PRES) & !is.na(ATMP))
+# Refit using the correct subset
+fitb <- lm(WTMP ~ WSPD + PRES + ATMP, data = subset_buoy_data)
+summary(fitb)
+# Add fitted values and residuals to the subset of data
+subset_buoy_data <- subset_buoy_data %>%
+  mutate(
+    fitted_values = fitted(fitb),
+    residuals = resid(fitb)
+  )
+# Plotting using the subset that matches the model fitting
+ggplot(subset_buoy_data, aes(x = fitted_values, y = residuals)) +
+  geom_point(alpha = 0.5) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "red") +
+  labs(title = "Residuals vs. Fitted Plot for Sea Surface Temperature Model",
+       x = "Fitted Values",
+       y = "Residuals") +
+  theme_minimal()
+```
+
+WTMP which means "Sea surface temperature (Celsius)" can be used to reflect climate changes, as higher temperature on the sea surface means globle warming in some researches. Firstly combines the separate year, month, and day columns into a proper date format, and calculates the average sea surface temperature for each day,drawing plots of these averages over time using a line graph. In order to visualize trends in sea surface temperature over the years, potentially indicate changes due to seasonal variations or long-term climate change effects.
+
+In that case, I want to figure out the variables which may influence the sea surface temperature, so I choose three variables (Wind speed, Sea level pressure and Air temperature) with more data throughout the year period. The result shows that all variables are significant and Adjusted R-squared is 0.8126 which means a good fitted result. However, while many residuals center around the zero line, the spread increases with larger fitted values, suggesting that the model may be less accurate at higher temperature ranges.
+
+#Question d 
+```{r}
+library(tidyverse) 
+library(lubridate)
+rainfall <- read_csv("Rainfall.csv") 
+summary(rainfall) 
+ggplot(rainfall, aes(x = DATE, y = HPCP)) + 
+  geom_line() + 
+  labs(title = "Rainfall Over Time in Boston", x = "Date", y = "HPCP") + theme_minimal() 
+rainfall %>% 
+  summarise(
+    Count = n(),  
+    Mean = mean(HPCP, na.rm = TRUE), 
+    Median = median(HPCP, na.rm = TRUE),  
+    SD = sd(HPCP, na.rm = TRUE),  
+    Min = min(HPCP, na.rm = TRUE), 
+    Max = max(HPCP, na.rm = TRUE)  
+  )
+# Transforming and plotting the data
+rainfall %>%
+  mutate(HPCP_log = log(HPCP + 1)) %>%
+  ggplot(aes(x = HPCP_log)) +
+  geom_histogram(bins = 50, fill = "blue", color = "black") +
+  labs(title = "Log-transformed Distribution of Precipitation",
+       x = "Log-transformed Precipitation (HPCP + 1)",
+       y = "Frequency") +
+  theme_minimal()
+#merge two dataset
+rainfall <- rainfall %>%
+  mutate(DATE = as.Date(DATE))%>%
+  rename(date = DATE)
+buoy_data_1985_2023 %>% 
+  mutate(date = as.Date(date, format="%Y-%m-%d"))
+combined_data <- full_join(rainfall, buoy_data_1985_2023, by = "date",relationship = "many-to-many")
+# CDF of the precipitation data (log)
+rainfall %>%
+  ggplot(aes(x = HPCP)) +
+  stat_ecdf(geom = "step") +
+  labs(title = "Cumulative Distribution of Precipitation",
+       x = "Precipitation (HPCP)",
+       y = "Cumulative Probability") +
+  theme_minimal()
+#Fit a regression model of rainfall using variables from buoy data
+fitr <- lm(HPCP~WTMP+WSPD + PRES + ATMP,data = combined_data)
+summary(fitr)
+# Residuals vs. Fitted Plot
+cleaned_data <- combined_data %>%
+  filter(!is.na(WTMP) & !is.na(WSPD) & !is.na(PRES) & !is.na(ATMP) & !is.na(HPCP))
+# Add fitted values and residuals to the cleaned dataset
+cleaned_data <- cleaned_data %>%
+  mutate(
+    fitted_r = fitted(fitr),
+    residuals_r = resid(fitr)
+  )
+# Example: Plotting residuals vs. fitted values
+ggplot(cleaned_data, aes(x = fitted_r, y = residuals_r)) +
+  geom_point() +
+  geom_smooth(se = FALSE, color = "red") +
+  labs(title = "Residuals vs. Fitted Plot",
+       x = "Fitted Values",
+       y = "Residuals") +
+  theme_minimal()
+```
+
+The total number of entries without NA is 31714, and average precipitation is 0.039, with median precipitation 0.01. The standard deviation is 0.076 with range between 0 to 2.03. Also, do a logarithmic transformation to see the distribution of precipitation.
+
+I merge rainfall data and buoy data, trying to find out relations between since they are in the same time period. In that case, I fit a linear regression model, it is good to see that all the variables are significant. However, the adjusted R-square is 0.0168, which means this model didn't fit well. Maybe there is some non-linear influences between them. Same as to residual plot which present a pattern, means problem in the model. Forcasts of weather is full of uncertainty and complex, no wonder many people find the weather forecast inaccurate.
